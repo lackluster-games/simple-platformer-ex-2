@@ -22,7 +22,7 @@ require "Characters"
 --load stuff at start of the game
 function love.load()
     player = CHARACTER:new(20,20,10,"player.png")   --make a player object
-    enemy  = CHARACTER:new(80,80,1,"enemy.png")    --make an enemy object
+    enemy  = ENEMY:new(80,80,1,"enemy.png")    --make an enemy object
     HEIGHT = 150  --height of screen
     WIDTH  = 150  --right hand boundary
 end
